@@ -17,6 +17,9 @@ html{
 	background-position: no-repeat;
 	width:100%;
 	padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .section-1::before {
   content: "";
@@ -74,11 +77,12 @@ header{
 	padding: 5%;
 }
 .row-1 h2{
-    max-width: 800px;
+    max-width: 600px;
+}
+.row-1 h2{
+    max-width: 900px;
 }
 .content{
-	margin-bottom: 20px;
-	padding:20px;
 	width:100%;
 }
 .row-1 h2{
